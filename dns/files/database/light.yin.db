@@ -1,0 +1,30 @@
+# DNS database file for domain .light.yin
+
+@ DEFAULT .light.yin.
+TTL DEFAULT 86400
+
+@ SOASP ns1.light TTL
+@ SOAADMIN dns\.admin.light TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1.light.yin. TTL
+@ NS ns2.light.yin. TTL
+@ NS ns3.light.yin. TTL
+@ MX mx1.light.yin. TTL
+@ MX mx2.light.yin. TTL
+
+ns1 A 10.0.1.10 TTL
+ns2 A 10.0.4.11 TTL
+ns3 A 10.0.6.11 TTL
+mx1 A 10.0.1.12 TTL
+mx2 A 10.0.1.13 TTL
+www A 10.0.1.14 TTL
+
+sp CNAME ns1 TTL
+ss1 CNAME ns2 TTL
+ss2 CNAME ns3 TTL
+mail1 CNAME mx1 TTL
+mail2 CNAME mx2 TTL

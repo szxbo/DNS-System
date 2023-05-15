@@ -1,0 +1,35 @@
+# DNS database file for domain .in-addr.reverse
+
+@ DEFAULT .0.10.in-addr.reverse.
+TTL DEFAULT 86400
+
+@ SOASP ns1.in-addr TTL
+@ SOAADMIN dns\.admin.in-addr TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1.0.10.in-addr.reverse. TTL
+@ NS ns2.0.10.in-addr.reverse. TTL
+@ NS ns3.0.10.in-addr.reverse. TTL
+
+ns1 A 10.0.21.10 TTL
+ns2 A 10.0.24.10 TTL
+ns3 A 10.0.20.11 TTL
+
+10.0 PTR ns1.yin. TTL
+12.0 PTR mx1.yin. TTL
+13.0 PTR mx2.yin. TTL
+
+10.1 PTR ns1.light.yin. TTL
+12.1 PTR mx1.light.yin. TTL
+13.1 PTR mx2.light.yin. TTL
+
+10.2 PTR ns1.yang. TTL
+12.2 PTR mx1.yang. TTL
+13.2 PTR mx2.yang. TTL
+
+10.3 PTR ns1.shadow.yang. TTL
+12.3 PTR mx1.shadow.yang. TTL
+13.3 PTR mx2.shadow.yang. TTL

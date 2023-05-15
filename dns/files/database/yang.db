@@ -1,0 +1,34 @@
+# DNS database file for domain .yang
+# It also includes a pointer to the primary server
+# of the .shadow.yang subdomain
+
+@ DEFAULT .yang.
+TTL DEFAULT 86400
+
+@ SOASP ns1.yang TTL
+@ SOAADMIN dns\.admin.yang TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1.yang. TTL
+@ NS ns2.yang. TTL
+@ NS ns3.yang. TTL
+.shadow NS sp.shadow.yang. TTL
+@ MX mx1.yang. TTL
+@ MX mx2.yang. TTL
+
+ns1 A 10.0.2.10 TTL
+ns2 A 10.0.5.10 TTL
+ns3 A 10.0.7.10 TTL
+sp.shadow A 10.0.3.10 TTL 
+mx1 A 10.0.2.12 TTL
+mx2 A 10.0.2.13 TTL
+www A 10.0.2.14 TTL
+
+sp CNAME ns1 TTL
+ss1 CNAME ns2 TTL
+ss2 CNAME ns3 TTL
+mail1 CNAME mx1 TTL
+mail2 CNAME mx2 TTL

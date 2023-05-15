@@ -1,0 +1,7 @@
+# DNS file for root domain servers
+
+# ST1 , default port: 53
+10.0.8.10:53
+
+# ST2 , default port: 53
+10.0.9.10:53

@@ -1,0 +1,41 @@
+# DNS database file for root servers .
+
+@ DEFAULT .
+TTL DEFAULT 86400
+
+@ SOASP . TTL
+@ SOAADMIN dns\. TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1. TTL
+@ NS ns2. TTL
+
+.yin NS ns1.yin. TTL
+.yin NS ns2.yin. TTL
+.yin NS ns3.yin. TTL
+.yang NS ns1.yang. TTL
+.yang NS ns2.yang. TTL
+.yang NS ns3.yang. TTL
+.reverse NS ns1.reverse. TTL
+
+ns1 A 10.0.8.10 TTL
+ns2 A 10.0.9.10 TTL
+
+ns1.yin A 10.0.0.10 TTL
+ns2.yin A 10.0.4.10 TTL
+ns3.yin A 10.0.6.10 TTL
+ns1.yang A 10.0.2.10 TTL
+ns2.yang A 10.0.5.10 TTL
+ns3.yang A 10.0.7.10 TTL
+ns1.reverse A 10.0.20.10 TTL
+
+sp.yin CNAME ns1.yin TTL
+ss1.yin CNAME ns2.yin TTL
+ss2.yin CNAME ns3.yin TTL
+sp.yang CNAME ns1.yang TTL
+ss1.yang CNAME ns2.yang TTL
+ss2.yang CNAME ns3.yang TTL
+sp.reverse CNAME ns1.reverse TTL

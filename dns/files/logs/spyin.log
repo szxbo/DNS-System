@@ -1,0 +1,445 @@
+23:28:2022.17:28:22:614, EV, localhost, Ficheiro de configuração lido
+23:28:2022.17:28:22:663, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:28:2022.17:28:22:694, EV, localhost, Ficheiro ST lido
+23:28:2022.17:28:22:699, EV, localhost, Ficheiro de dados lido.
+23:28:2022.17:28:22:714, EV, localhost, Ficheiro de logs criado.
+23:30:2022.17:30:15:661, RR, /127.0.0.1:34345, 
+203295, Q, 0, 0, 0, 0;
+mx1.yin., NS;
+(Null);
+(Null);
+(Null);
+23:30:2022.17:30:15:874, RP, /127.0.0.1:34345, 
+203295, A, 2, 0, 3, 3;
+mx1.yin., NS;
+(Null);
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+23:31:2022.17:31:03:742, RR, /127.0.0.1:47810, 
+203603, Q, 0, 0, 0, 0;
+ns1.yin., CNAME;
+(Null);
+(Null);
+(Null);
+23:31:2022.17:31:03:754, RP, /127.0.0.1:47810, 
+203603, A, 2, 0, 3, 3;
+ns1.yin., CNAME;
+(Null);
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+23:31:2022.17:31:11:786, RR, /127.0.0.1:49075, 
+203707, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+23:31:2022.17:31:11:788, RP, /127.0.0.1:49075, 
+203707, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+23:32:2022.17:32:40:803, EV, localhost, Ficheiro de configuração lido
+23:32:2022.17:32:40:853, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:32:2022.17:32:40:877, EV, localhost, Ficheiro ST lido
+23:32:2022.17:32:40:882, EV, localhost, Ficheiro de dados lido.
+23:32:2022.17:32:40:898, EV, localhost, Ficheiro de logs criado.
+23:32:2022.17:32:45:013, RR, /127.0.0.1:53671, 
+204271, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+23:32:2022.17:32:45:252, RP, /127.0.0.1:53671, 
+204271, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+23:35:2022.17:35:10:941, RR, /127.0.0.1:55651, 
+204994, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+23:35:2022.17:35:10:945, RP, /127.0.0.1:55651, 
+204994, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+23:35:2022.17:35:30:415, EV, localhost, Ficheiro de configuração lido
+23:35:2022.17:35:30:467, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:35:2022.17:35:30:499, EV, localhost, Ficheiro ST lido
+23:35:2022.17:35:30:502, EV, localhost, Ficheiro de dados lido.
+23:35:2022.17:35:30:517, EV, localhost, Ficheiro de logs criado.
+23:35:2022.17:35:33:061, RR, /127.0.0.1:35927, 
+
+205262, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+23:35:2022.17:35:33:260, RP, /127.0.0.1:35927, 
+
+205262, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+23:36:2022.17:36:29:698, EV, localhost, Ficheiro de configuração lido
+23:36:2022.17:36:29:748, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:36:2022.17:36:29:782, EV, localhost, Ficheiro ST lido
+23:36:2022.17:36:29:786, EV, localhost, Ficheiro de dados lido.
+23:36:2022.17:36:29:799, EV, localhost, Ficheiro de logs criado.
+23:36:2022.17:36:32:634, RR, /127.0.0.1:43866, 
+
+205679, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+23:36:2022.17:36:32:801, RP, /127.0.0.1:43866, 
+
+205679, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+23:37:2022.17:37:35:137, RR, /127.0.0.1:50913, 
+
+206010, Q, 0, 0, 0, 0;
+sp.yin., NS;
+(Null);
+(Null);
+(Null);
+23:37:2022.17:37:35:172, RP, /127.0.0.1:50913, 
+
+206010, A, 2, 0, 3, 3;
+sp.yin., NS;
+(Null);
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+23:38:2022.17:38:16:584, RR, /127.0.0.1:40398, 
+
+206258, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+23:38:2022.17:38:16:597, RP, /127.0.0.1:40398, 
+
+206258, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+23:40:2022.17:40:43:806, EV, localhost, Ficheiro de configuração lido
+23:40:2022.17:40:43:855, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:40:2022.17:40:43:888, EV, localhost, Ficheiro ST lido
+23:40:2022.17:40:43:894, EV, localhost, Ficheiro de dados lido.
+23:40:2022.17:40:43:907, EV, localhost, Ficheiro de logs criado.
+23:40:2022.17:40:47:163, RR, /127.0.0.1:50996, 
+207273, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:40:2022.17:40:47:358, RP, /127.0.0.1:50996, 
+207273, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+
+23:41:2022.17:41:32:770, RR, /127.0.0.1:41141, 
+207543, Q, 0, 0, 0, 0;
+.yin., MX;
+(Null);
+(Null);
+(Null);
+
+23:41:2022.17:41:32:773, RP, /127.0.0.1:41141, 
+207543, A, 0, 2, 3, 5;
+.yin., MX;
+.yin. MX mx1.yin. 86400,
+.yin. MX mx2.yin. 86400;
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400,
+mx1.yin. A 10.0.0.12 86400,
+mx2.yin. A 10.0.0.13 86400;
+
+23:54:2022.17:54:01:452, EV, localhost, Ficheiro de configuração lido
+23:54:2022.17:54:01:503, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:54:2022.17:54:01:546, EV, localhost, Ficheiro ST lido
+23:54:2022.17:54:01:552, EV, localhost, Ficheiro de dados lido.
+23:54:2022.17:54:01:569, EV, localhost, Ficheiro de logs criado.
+23:54:2022.17:54:29:681, RR, /127.0.0.1:49855, 
+211131, Q, 0, 0, 0, 0;
+.yin., MX;
+(Null);
+(Null);
+(Null);
+
+23:54:2022.17:54:29:843, RP, /127.0.0.1:49855, 
+211131, A, 0, 2, 3, 5;
+.yin., MX;
+.yin. MX mx1.yin. 86400,
+.yin. MX mx2.yin. 86400;
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400,
+mx1.yin. A 10.0.0.12 86400,
+mx2.yin. A 10.0.0.13 86400;
+
+23:54:2022.17:54:33:016, RR, /127.0.0.1:60365, 
+211190, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:54:2022.17:54:33:018, RP, /127.0.0.1:60365, 
+211190, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+
+23:55:2022.17:55:41:464, EV, localhost, Ficheiro de configuração lido
+23:55:2022.17:55:41:527, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:55:2022.17:55:41:566, EV, localhost, Ficheiro ST lido
+23:55:2022.17:55:41:570, EV, localhost, Ficheiro de dados lido.
+23:55:2022.17:55:41:583, EV, localhost, Ficheiro de logs criado.
+23:55:2022.17:55:54:474, RR, /127.0.0.1:57197, 
+211698, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:55:2022.17:55:54:677, RP, /127.0.0.1:57197, 
+211698, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+
+23:56:2022.17:56:16:660, RR, /127.0.0.1:47080, 
+211879, Q, 0, 0, 0, 0;
+.yin., STUPID;
+(Null);
+(Null);
+(Null);
+
+23:56:2022.17:56:16:667, RP, /127.0.0.1:47080, 
+211879, A, 1, 0, 3, 3;
+.yin., STUPID;
+(Null);
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+
+23:56:2022.17:56:28:557, RR, /127.0.0.1:43857, 
+212008, Q, 0, 0, 0, 0;
+.fake., STUPID;
+(Null);
+(Null);
+(Null);
+
+23:56:2022.17:56:28:561, RP, /127.0.0.1:43857, 
+212008, A, 2, 0, 3, 3;
+.fake., STUPID;
+(Null);
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+
+23:58:2022.17:58:27:561, EV, localhost, Ficheiro de configuração lido
+23:58:2022.17:58:27:611, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:58:2022.17:58:27:645, EV, localhost, Ficheiro ST lido
+23:58:2022.17:58:27:652, EV, localhost, Ficheiro de dados lido.
+23:58:2022.17:58:27:664, EV, localhost, Ficheiro de logs criado.
+23:58:2022.17:58:32:590, RR, /127.0.0.1:41805, 
+212675, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:58:2022.17:58:32:797, RP, /127.0.0.1:41805, 
+212675, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+
+23:59:2022.17:59:12:346, EV, localhost, Ficheiro de configuração lido
+23:59:2022.17:59:12:396, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:59:2022.17:59:12:433, EV, localhost, Ficheiro ST lido
+23:59:2022.17:59:12:437, EV, localhost, Ficheiro de dados lido.
+23:59:2022.17:59:12:451, EV, localhost, Ficheiro de logs criado.
+23:59:2022.17:59:15:835, RR, /127.0.0.1:43836, 
+213061, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:59:2022.17:59:16:040, RP, /127.0.0.1:43836, 
+213061, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+
+23:01:2022.18:01:31:521, EV, localhost, Ficheiro de configuração lido
+23:01:2022.18:01:31:576, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:01:2022.18:01:31:609, EV, localhost, Ficheiro ST lido
+23:01:2022.18:01:31:613, EV, localhost, Ficheiro de dados lido.
+23:01:2022.18:01:31:627, EV, localhost, Ficheiro de logs criado.
+23:01:2022.18:01:36:745, RR, /127.0.0.1:47530, 
+213826, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:01:2022.18:01:36:988, RP, /127.0.0.1:47530, 
+213826, A, 0, 1, 0, 0;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+(Null);
+(Null);
+
+23:02:2022.18:02:18:481, EV, localhost, Ficheiro de configuração lido
+23:02:2022.18:02:18:546, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:02:2022.18:02:18:596, EV, localhost, Ficheiro ST lido
+23:02:2022.18:02:18:600, EV, localhost, Ficheiro de dados lido.
+23:02:2022.18:02:18:623, EV, localhost, Ficheiro de logs criado.
+23:02:2022.18:02:22:321, RR, /127.0.0.1:35898, 
+214169, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:02:2022.18:02:22:558, RP, /127.0.0.1:35898, 
+214169, A, 0, 1, 3, 3;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+
+23:12:2022.18:12:24:005, EV, localhost, Ficheiro de configuração lido
+23:12:2022.18:12:24:073, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:12:2022.18:12:24:116, EV, localhost, Ficheiro ST lido
+23:12:2022.18:12:24:121, EV, localhost, Ficheiro de dados lido.
+23:12:2022.18:12:24:140, EV, localhost, Ficheiro de logs criado.
+23:37:2022.18:37:14:822, EV, localhost, Ficheiro de configuração lido
+23:37:2022.18:37:14:873, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:37:2022.18:37:14:911, EV, localhost, Ficheiro ST lido
+23:37:2022.18:37:14:915, EV, localhost, Ficheiro de dados lido.
+23:37:2022.18:37:14:928, EV, localhost, Ficheiro de logs criado.
+23:37:2022.18:37:17:641, RR, /127.0.0.1:44238, 
+248123, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:37:2022.18:37:17:844, RP, /127.0.0.1:44238, 
+248123, A, 0, 1, 3, 3;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+
+23:47:2022.18:47:17:728, TO, 55555, timeout na espera da resposta a uma query
+23:48:2022.18:48:26:262, EV, localhost, Ficheiro de configuração lido
+23:48:2022.18:48:26:317, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:48:2022.18:48:26:356, EV, localhost, Ficheiro ST lido
+23:48:2022.18:48:26:360, EV, localhost, Ficheiro de dados lido.
+23:48:2022.18:48:26:374, EV, localhost, Ficheiro de logs criado.
+23:48:2022.18:48:29:040, RR, /127.0.0.1:41504, 
+256741, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:48:2022.18:48:29:235, RP, /127.0.0.1:41504, 
+256741, A, 0, 1, 3, 3;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+
+23:58:2022.18:58:29:095, TO, 55555, timeout na espera da resposta a uma query
+23:59:2022.18:59:03:323, EV, localhost, Ficheiro de configuração lido
+23:59:2022.18:59:03:373, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:59:2022.18:59:03:408, EV, localhost, Ficheiro ST lido
+23:59:2022.18:59:03:412, EV, localhost, Ficheiro de dados lido.
+23:59:2022.18:59:03:426, EV, localhost, Ficheiro de logs criado.
+23:21:2022.19:21:03:991, EV, localhost, Ficheiro de configuração lido
+23:21:2022.19:21:04:054, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:21:2022.19:21:04:089, EV, localhost, Ficheiro ST lido
+23:21:2022.19:21:04:093, EV, localhost, Ficheiro de dados lido.
+23:21:2022.19:21:04:105, EV, localhost, Ficheiro de logs criado.
+23:21:2022.19:21:10:087, RR, /127.0.0.1:60920, 
+278912, Q, 0, 0, 0, 0;
+sp.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:21:2022.19:21:10:259, RP, /127.0.0.1:60920, 
+278912, A, 0, 1, 3, 3;
+sp.yin., CNAME;
+sp.yin. CNAME ns1.yin. 86400;
+.yin. NS ns1.yin. 86400,
+.yin. NS ns2.yin. 86400,
+.yin. NS ns3.yin. 86400;
+ns1.yin. A 10.0.0.10 86400,
+ns2.yin. A 10.0.4.10 86400,
+ns3.yin. A 10.0.6.10 86400;
+
+23:31:2022.19:31:10:181, TO, 55555, timeout na espera da resposta a uma query

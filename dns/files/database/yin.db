@@ -1,0 +1,34 @@
+# DNS database file for domain .yin
+# It also includes a pointer to the primary server
+# of the .light.yin subdomain
+
+@ DEFAULT .yin.
+TTL DEFAULT 86400
+
+@ SOASP ns1.yin TTL
+@ SOAADMIN dns\.admin.yin TTL
+@ SOASERIAL 0117102022 TTL
+@ SOAREFRESH 14400 TTL
+@ SOARETRY 3600 TTL
+@ SOAEXPIRE 604800 TTL
+
+@ NS ns1.yin. TTL
+@ NS ns2.yin. TTL
+@ NS ns3.yin. TTL
+.light NS sp.light.yin. TTL
+@ MX mx1.yin. TTL
+@ MX mx2.yin. TTL
+
+ns1 A 10.0.0.10 TTL
+ns2 A 10.0.4.10 TTL
+ns3 A 10.0.6.10 TTL
+sp.light A 10.0.1.10 TTL
+mx1 A 10.0.0.12 TTL 
+mx2 A 10.0.0.13 TTL
+www A 10.0.0.14 TTL
+
+sp CNAME ns1 TTL
+ss1 CNAME ns2 TTL
+ss2 CNAME ns3 TTL
+mail1 CNAME mx1 TTL
+mail2 CNAME mx2 TTL

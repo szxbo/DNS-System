@@ -1,0 +1,77 @@
+23:02:2022.19:02:45:793, EV, localhost, Ficheiro de configuração lido
+23:02:2022.19:02:45:854, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:02:2022.19:02:45:908, EV, localhost, Ficheiro ST lido
+23:02:2022.19:02:45:916, EV, localhost, Ficheiro de dados lido.
+23:02:2022.19:02:45:933, EV, localhost, Ficheiro de logs criado.
+23:02:2022.19:02:56:161, RR, /127.0.0.1:57952, 
+272874, Q, 0, 0, 0, 0;
+sp.light.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:02:2022.19:02:56:350, RP, /127.0.0.1:57952, 
+272874, A, 1, 0, 5, 5;
+sp.light.yin., CNAME;
+(Null);
+. NS ns1. 86400,
+. NS ns2. 86400,
+.yin. NS sp.yin. 86400,
+.yin. NS ss1.yin. 86400,
+.yin. NS ss2.yin. 86400;
+ns1. A 10.0.8.10 86400,
+ns2. A 10.0.9.10 86400,
+sp.yin. A 10.0.0.10 86400,
+ss1.yin. A 10.0.4.10 86400,
+ss2.yin. A 10.0.6.10 86400;
+
+23:11:2022.19:11:13:760, EV, localhost, Ficheiro de configuração lido
+23:11:2022.19:11:13:822, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:11:2022.19:11:13:854, EV, localhost, Ficheiro ST lido
+23:11:2022.19:11:13:858, EV, localhost, Ficheiro de dados lido.
+23:11:2022.19:11:13:874, EV, localhost, Ficheiro de logs criado.
+23:11:2022.19:11:16:489, RR, /127.0.0.1:49464, 
+275605, Q, 0, 0, 0, 0;
+sp.light.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:11:2022.19:11:16:724, RP, /127.0.0.1:49464, 
+275605, A, 1, 0, 5, 5;
+sp.light.yin., CNAME;
+(Null);
+. NS ns1. 86400,
+. NS ns2. 86400,
+.yin. NS sp.yin. 86400,
+.yin. NS ss1.yin. 86400,
+.yin. NS ss2.yin. 86400;
+ns1. A 10.0.8.10 86400,
+ns2. A 10.0.9.10 86400,
+sp.yin. A 10.0.0.10 86400,
+ss1.yin. A 10.0.4.10 86400,
+ss2.yin. A 10.0.6.10 86400;
+
+23:18:2022.19:18:21:206, EV, localhost, Ficheiro de configuração lido
+23:18:2022.19:18:21:284, ST, localhost, porta: 55555 timeout: 600000 debug: true
+23:18:2022.19:18:21:395, EV, localhost, Ficheiro ST lido
+23:18:2022.19:18:21:410, EV, localhost, Ficheiro de dados lido.
+23:18:2022.19:18:21:438, EV, localhost, Ficheiro de logs criado.
+23:18:2022.19:18:23:451, RR, /127.0.0.1:52086, 
+277885, Q, 0, 0, 0, 0;
+sp.light.yin., CNAME;
+(Null);
+(Null);
+(Null);
+
+23:18:2022.19:18:23:647, RP, /127.0.0.1:52086, 
+277885, A, 1, 0, 3, 3;
+sp.light.yin., CNAME;
+(Null);
+.yin. NS sp.yin. 86400,
+.yin. NS ss1.yin. 86400,
+.yin. NS ss2.yin. 86400;
+sp.yin. A 10.0.0.10 86400,
+ss1.yin. A 10.0.4.10 86400,
+ss2.yin. A 10.0.6.10 86400;
+
